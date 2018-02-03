@@ -1,1 +1,3 @@
-# RSA_SAGE
+# RSA SAGE 
+The code is a Sagemath (Python) implementation of RSA Encryption and Decryption. A pseudo random number generator is used in order to genrate both the private and public key, the size of key in the code is very small and is not advisible to be used in real applications. 
+The current time of the system is used as the seed value in the code in order to generate the random number. Both the encryption and decryption blocks are coded i.e. no library is used for any of the function. I have also used a function to split up code in order to be able to pass it through encryption and decryption methods in blocks.
